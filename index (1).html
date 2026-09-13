@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio académique et professionnel d’Axel Busquin, économiste spécialisé en politiques publiques, concurrence, innovation et stratégie des entreprises.">
+  <meta name="theme-color" content="#0b1d35">
+  <title>Axel Busquin — Économiste</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1d35'/%3E%3Cpath d='M17 45 29 17h6l12 28h-7l-2.5-6H26.2l-2.5 6Zm11.4-12h6.8l-3.4-8.6Z' fill='%23f3b74e'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+
+  <div class="site-shell">
+    <aside class="sidebar" aria-label="Navigation principale">
+      <div class="identity">
+        <div class="identity-mark" aria-hidden="true">AB</div>
+        <div>
+          <p class="identity-name" data-profile="name">Axel Busquin</p>
+          <p class="identity-role" data-profile="role">Économie appliquée et politiques publiques</p>
+        </div>
+      </div>
+
+      <p class="nav-label">Explorer</p>
+      <nav class="section-nav">
+        <button class="nav-item" type="button" data-panel-target="biographie" aria-current="page">
+          <span class="nav-number">01</span>
+          <span>Biographie &amp; CV</span>
+        </button>
+        <button class="nav-item" type="button" data-panel-target="travaux">
+          <span class="nav-number">02</span>
+          <span>Publications &amp; travaux</span>
+        </button>
+        <button class="nav-item" type="button" data-panel-target="projets">
+          <span class="nav-number">03</span>
+          <span>Projets personnels</span>
+        </button>
+        <button class="nav-item" type="button" data-panel-target="pedagogie">
+          <span class="nav-number">04</span>
+          <span>Ressources pédagogiques</span>
+        </button>
+        <button class="nav-item" type="button" data-panel-target="ressources">
+          <span class="nav-number">05</span>
+          <span>Ressources utiles</span>
+        </button>
+        <a class="nav-item nav-link" id="github-nav-link" target="_blank" rel="noopener noreferrer">
+          <span class="nav-number">↗</span>
+          <span>GitHub</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-spacer"></div>
+      <a class="admin-shortcut" href="admin/" title="Ouvrir l’espace d’administration">
+        <span aria-hidden="true">⚙</span>
+        <span>Administration</span>
+      </a>
+      <p class="sidebar-note">
+        <strong>Carnet de travail public</strong>
+        Recherches, enseignements et projets en cours d’élaboration.
+      </p>
+    </aside>
+
+    <main class="main-area" id="main-content" tabindex="-1">
+      <header class="mobile-header">
+        <div class="mobile-mark" aria-hidden="true">AB</div>
+        <label class="sr-only" for="mobile-section">Choisir une rubrique</label>
+        <select class="mobile-select" id="mobile-section">
+          <option value="biographie">Biographie &amp; CV</option>
+          <option value="travaux">Publications &amp; travaux</option>
+          <option value="projets">Projets personnels</option>
+          <option value="pedagogie">Ressources pédagogiques</option>
+          <option value="ressources">Ressources utiles</option>
+        </select>
+        <a class="mobile-admin" href="admin/" aria-label="Ouvrir l’administration" title="Administration">⚙</a>
+      </header>
+
+      <div class="content-wrap">
+        <div class="topline">
+          <p>Portfolio de recherche &amp; projets</p>
+          <span class="topline-status">Contenu évolutif</span>
+        </div>
+
+        <div class="loading-state" id="loading-state" role="status">
+          <span class="loading-dot" aria-hidden="true"></span>
+          Chargement du portfolio…
+        </div>
+
+        <section class="panel" id="biographie" data-panel aria-labelledby="title-biographie">
+          <div class="hero">
+            <div class="hero-copy">
+              <p class="eyebrow" data-profile="role">Économiste · recherche appliquée</p>
+              <h1 id="title-biographie" data-profile-name>Axel <span>Busquin</span></h1>
+              <p class="hero-lead" data-profile="tagline">
+                J’étudie la manière dont la concurrence, les politiques industrielles et les transformations technologiques façonnent les stratégies des entreprises, l’innovation et l’action publique.
+              </p>
+              <div class="hero-actions">
+                <a class="action action-primary" id="contact-link">Me contacter</a>
+                <button class="action action-secondary" id="cv-button" type="button">Consulter mon CV</button>
+              </div>
+            </div>
+            <div class="monogram-wrap" aria-hidden="true">
+              <div class="monogram">AB</div>
+              <span class="monogram-caption" data-profile="location">Bruxelles · Paris</span>
+            </div>
+          </div>
+
+          <div class="section-meta biography-meta">
+            <p class="eyebrow" data-section="biographie" data-field="eyebrow">Profil</p>
+            <p data-section="biographie" data-field="intro">Formation, champs de recherche et méthodes de travail.</p>
+          </div>
+          <div class="blocks-grid" data-blocks="biographie"></div>
+        </section>
+
+        <section class="panel" id="travaux" data-panel aria-labelledby="title-travaux" hidden>
+          <header class="page-header">
+            <div>
+              <p class="eyebrow" data-section="travaux" data-field="eyebrow">Recherche</p>
+              <h1 id="title-travaux" data-section="travaux" data-field="title">Publications &amp; travaux</h1>
+            </div>
+            <p data-section="travaux" data-field="intro">Mémoires, projets de recherche, notes et productions académiques.</p>
+          </header>
+          <div class="blocks-grid" data-blocks="travaux"></div>
+        </section>
+
+        <section class="panel" id="projets" data-panel aria-labelledby="title-projets" hidden>
+          <header class="page-header">
+            <div>
+              <p class="eyebrow" data-section="projets" data-field="eyebrow">Laboratoire personnel</p>
+              <h1 id="title-projets" data-section="projets" data-field="title">Projets personnels</h1>
+            </div>
+            <p data-section="projets" data-field="intro">Des projets au long cours qui prolongent mes recherches et mon goût pour la transmission.</p>
+          </header>
+          <div class="blocks-grid" data-blocks="projets"></div>
+        </section>
+
+        <section class="panel" id="pedagogie" data-panel aria-labelledby="title-pedagogie" hidden>
+          <header class="page-header">
+            <div>
+              <p class="eyebrow" data-section="pedagogie" data-field="eyebrow">Transmettre</p>
+              <h1 id="title-pedagogie" data-section="pedagogie" data-field="title">Ressources pédagogiques</h1>
+            </div>
+            <p data-section="pedagogie" data-field="intro">Supports, exercices, bibliographies et fiches pour accompagner l’apprentissage de l’économie.</p>
+          </header>
+          <div class="blocks-grid" data-blocks="pedagogie"></div>
+        </section>
+
+        <section class="panel" id="ressources" data-panel aria-labelledby="title-ressources" hidden>
+          <header class="page-header">
+            <div>
+              <p class="eyebrow" data-section="ressources" data-field="eyebrow">Bibliothèque</p>
+              <h1 id="title-ressources" data-section="ressources" data-field="title">Ressources utiles</h1>
+            </div>
+            <p data-section="ressources" data-field="intro">Une sélection d’institutions, bases de données et plateformes de recherche.</p>
+          </header>
+          <div class="blocks-grid" data-blocks="ressources"></div>
+        </section>
+
+        <footer class="site-footer">
+          <span>© <span id="current-year"></span> <span data-profile="name">Axel Busquin</span></span>
+          <span data-profile="footer_note">Économie · politiques publiques · innovation</span>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <dialog class="pdf-dialog" id="pdf-dialog" aria-labelledby="pdf-dialog-title">
+    <div class="pdf-dialog-shell">
+      <header class="pdf-dialog-header">
+        <div>
+          <p class="eyebrow">Lecteur PDF</p>
+          <h2 id="pdf-dialog-title">Document</h2>
+        </div>
+        <button class="icon-button" id="pdf-close" type="button" aria-label="Fermer le lecteur">×</button>
+      </header>
+      <div class="pdf-frame-wrap">
+        <iframe id="pdf-frame" title="Lecteur de document PDF"></iframe>
+      </div>
+      <footer class="pdf-dialog-footer">
+        <p>Si l’aperçu ne s’affiche pas dans votre navigateur, ouvrez le fichier dans un nouvel onglet.</p>
+        <a class="action action-primary action-small" id="pdf-open-external" target="_blank" rel="noopener noreferrer">Ouvrir / télécharger</a>
+      </footer>
+    </div>
+  </dialog>
+
+  <noscript>
+    <div class="noscript-message">JavaScript doit être activé pour charger le contenu de ce portfolio.</div>
+  </noscript>
+</body>
+</html>
