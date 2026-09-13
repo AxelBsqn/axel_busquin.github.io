@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0b1d35">
+  <title>Administration — Portfolio Axel Busquin</title>
+  <style>
+    :root {
+      --navy: #0b1d35;
+      --blue: #215590;
+      --amber: #f3b74e;
+      --ink: #15243a;
+      --muted: #67758a;
+      --line: #dbe4ee;
+      --canvas: #f3f6fa;
+      --surface: #fff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      display: grid;
+      min-width: 320px;
+      min-height: 100vh;
+      margin: 0;
+      padding: 28px;
+      place-items: center;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 84% 12%, rgba(33, 85, 144, 0.16), transparent 28rem),
+        var(--canvas);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+
+    .admin-card {
+      width: min(760px, 100%);
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--surface);
+      box-shadow: 0 24px 70px rgba(17, 43, 75, 0.13);
+    }
+
+    .admin-head {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 20px;
+      align-items: center;
+      padding: clamp(28px, 6vw, 52px);
+      color: white;
+      background: linear-gradient(135deg, #102b4b, var(--navy));
+    }
+
+    .mark {
+      display: grid;
+      width: 62px;
+      height: 62px;
+      place-items: center;
+      border: 1px solid rgba(243, 183, 78, 0.55);
+      border-radius: 16px;
+      color: var(--amber);
+      font-weight: 800;
+    }
+
+    .eyebrow {
+      margin: 0 0 5px;
+      color: var(--amber);
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      font-weight: 400;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
+
+    .admin-body { padding: clamp(28px, 6vw, 52px); }
+    .lead { margin: 0; color: #46566b; font-size: 1.04rem; }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 26px 0 31px;
+    }
+
+    .button {
+      display: inline-flex;
+      min-height: 46px;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 17px;
+      border: 1px solid #cbd8e6;
+      border-radius: 10px;
+      color: var(--blue);
+      background: white;
+      font-weight: 750;
+      text-decoration: none;
+    }
+
+    .button-primary { color: var(--navy); background: var(--amber); border-color: var(--amber); }
+    .button:hover { transform: translateY(-1px); }
+
+    .steps {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: steps;
+    }
+
+    .steps li {
+      display: grid;
+      grid-template-columns: 31px minmax(0, 1fr);
+      gap: 12px;
+      align-items: start;
+      color: var(--muted);
+      font-size: 0.9rem;
+      counter-increment: steps;
+    }
+
+    .steps li::before {
+      display: grid;
+      width: 29px;
+      height: 29px;
+      place-items: center;
+      border-radius: 9px;
+      color: var(--blue);
+      background: #e8f1fa;
+      content: counter(steps);
+      font-size: 0.75rem;
+      font-weight: 800;
+    }
+
+    .security-note {
+      margin: 30px 0 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--blue);
+      border-radius: 0 10px 10px 0;
+      color: #536277;
+      background: #eef4fa;
+      font-size: 0.82rem;
+    }
+
+    .security-note strong { color: var(--navy); }
+
+    @media (max-width: 520px) {
+      body { padding: 13px; }
+      .admin-head { grid-template-columns: 1fr; }
+      .actions { flex-direction: column; }
+      .button { width: 100%; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="admin-card">
+    <header class="admin-head">
+      <div class="mark" aria-hidden="true">AB</div>
+      <div>
+        <p class="eyebrow">Espace de gestion</p>
+        <h1>Administration du portfolio</h1>
+      </div>
+    </header>
+
+    <div class="admin-body">
+      <p class="lead">
+        Le contenu est modifié avec Pages CMS. La connexion et le droit d’enregistrer des changements sont contrôlés par GitHub.
+      </p>
+
+      <div class="actions">
+        <a class="button button-primary" href="https://app.pagescms.org/" target="_blank" rel="noopener noreferrer">Se connecter avec GitHub ↗</a>
+        <a class="button" href="../">Retour au portfolio</a>
+      </div>
+
+      <ol class="steps">
+        <li>Connectez-vous avec le compte GitHub qui possède le dépôt.</li>
+        <li>Sélectionnez le dépôt du portfolio, puis « Contenu du portfolio ».</li>
+        <li>Ouvrez une rubrique, ajoutez ou réordonnez ses blocs, puis enregistrez.</li>
+        <li>Pour un CV, un mémoire ou un support, choisissez un fichier PDF : il sera déposé dans le dépôt et affiché dans le lecteur du site.</li>
+      </ol>
+
+      <p class="security-note">
+        <strong>Sécurité :</strong> cette page d’entrée est publiquement visible, mais elle ne contient ni mot de passe ni secret. Seul un compte disposant d’un droit d’écriture sur le dépôt GitHub peut modifier et enregistrer le contenu.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
