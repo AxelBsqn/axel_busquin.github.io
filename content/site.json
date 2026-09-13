@@ -1,13 +1,9 @@
 {
   "profile": {
     "name": "Axel Busquin",
-    "role": "Économiste · recherche appliquée",
-    "location": "Bruxelles · Paris",
-    "tagline": "J’étudie la manière dont la concurrence, les politiques industrielles et les transformations technologiques façonnent les stratégies des entreprises, l’innovation et l’action publique.",
-    "email": "",
-    "cv_pdf": "",
-    "cv_url": "",
-    "github_url": "",
+    "role": "Économiste ",
+    "tagline": "Diplômé d'un Master recherche en économie des politiques publiques de l'Université Paris 1 Panthéon-Sorbonne",
+    "cv_pdf": "/media/docs/cv-axel-busquin-2.pdf",
     "footer_note": "Économie · politiques publiques · innovation",
     "meta_description": "Portfolio académique et professionnel d’Axel Busquin, économiste spécialisé en politiques publiques, concurrence, innovation et stratégie des entreprises."
   },
@@ -24,10 +20,7 @@
         "statement": true,
         "kicker": "À propos",
         "title": "Une approche d’économie appliquée",
-        "body": "Économiste diplômé du master recherche Économie appliquée aux politiques publiques de l’Université Paris 1 Panthéon-Sorbonne.\n\nMon approche combine économie industrielle, économie publique et méthodes quantitatives. Je m’intéresse particulièrement aux interactions entre pouvoir de marché, politiques de concurrence, politique industrielle, innovation et changements technologiques, ainsi qu’à leurs dimensions stratégiques et géoéconomiques.",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "body": "Économiste diplômé du master recherche Économie appliquée aux politiques publiques de l’Université Paris 1 Panthéon-Sorbonne.\n\nMon approche combine économie industrielle, économie publique et méthodes quantitatives. Je m’intéresse particulièrement aux interactions entre pouvoir de marché, politiques de concurrence, politique industrielle, innovation et changements technologiques, ainsi qu’à leurs dimensions stratégiques et géoéconomiques."
       },
       {
         "type": "texte",
@@ -42,9 +35,7 @@
           "Économie publique",
           "Innovation",
           "Géoéconomie"
-        ],
-        "link_label": "",
-        "link_url": ""
+        ]
       },
       {
         "type": "parcours",
@@ -53,10 +44,7 @@
         "date": "Université Paris 1 Panthéon-Sorbonne",
         "title": "Économie appliquée aux politiques publiques",
         "body": "Économétrie, économie publique avancée, concurrence, innovation, dette publique, économie monétaire et politiques sectorielles.",
-        "status": "Diplômé",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "status": "Diplômé"
       },
       {
         "type": "parcours",
@@ -65,10 +53,7 @@
         "date": "Université Paris 1 Panthéon-Sorbonne",
         "title": "Travaux dirigés en économie",
         "body": "Introduction à l’économie, microéconomie des structures de marché et stratégie des entreprises, macroéconomie ouverte.",
-        "status": "Expérience",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "status": "Expérience"
       },
       {
         "type": "parcours",
@@ -77,10 +62,7 @@
         "date": "Université libre de Bruxelles",
         "title": "Sciences politiques",
         "body": "Formation pluridisciplinaire en sciences sociales, institutions et analyse politique.",
-        "status": "Diplômé",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "status": "Diplômé"
       },
       {
         "type": "texte",
@@ -99,9 +81,7 @@
           "Régression sur discontinuité",
           "Contrôle synthétique",
           "Recherche documentaire"
-        ],
-        "link_label": "",
-        "link_url": ""
+        ]
       }
     ]
   },
@@ -117,7 +97,6 @@
         "status": "Achevé · 2026",
         "title": "Crise et dépenses en R&D privée",
         "body": "Une analyse empirique des trajectoires des grandes entreprises après la crise de 2008. Le travail mobilise des données de panel au niveau des entreprises et des méthodes d’event study afin d’étudier les trajectoires de dépenses privées de R&D, ainsi que leurs hétérogénéités régionales, sectorielles et financières.",
-        "file": "",
         "tags": [
           "R&D",
           "Crise de 2008",
@@ -138,9 +117,7 @@
           "Politique industrielle",
           "Innovation",
           "Stratégies d’entreprise"
-        ],
-        "link_label": "",
-        "link_url": ""
+        ]
       },
       {
         "type": "texte",
@@ -149,10 +126,7 @@
         "statement": false,
         "kicker": "Espace ouvert",
         "title": "Notes de recherche & documents de travail",
-        "body": "Cet espace accueillera des synthèses de littérature, des idées de papier, des résultats préliminaires et des documents de travail partageables.",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "body": "Cet espace accueillera des synthèses de littérature, des idées de papier, des résultats préliminaires et des documents de travail partageables."
       }
     ]
   },
@@ -169,10 +143,7 @@
         "status": "En rédaction",
         "title": "Économie de la concurrence & stratégie des entreprises",
         "body": "Un ouvrage-syllabus personnel réunissant théorie économique, droit de la concurrence, stratégie, études de cas et méthodes quantitatives appliquées.",
-        "category": "Livre · notes de cours",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "category": "Livre · notes de cours"
       },
       {
         "type": "projet",
@@ -181,10 +152,7 @@
         "status": "Prototype",
         "title": "Mandate",
         "body": "Un jeu de simulation politique, institutionnelle et économique dans lequel décisions publiques, contraintes budgétaires, acteurs et rapports de force interagissent.",
-        "category": "Jeu · simulation",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "category": "Jeu · simulation"
       },
       {
         "type": "projet",
@@ -193,10 +161,7 @@
         "status": "Conception",
         "title": "Scientia Populi",
         "body": "Un projet de revue accessible mais exigeante, entre vulgarisation, analyse de l’actualité et recherche en économie, science politique et théorie politique.",
-        "category": "Revue · vulgarisation",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "category": "Revue · vulgarisation"
       },
       {
         "type": "projet",
@@ -205,10 +170,7 @@
         "status": "Exploration",
         "title": "Papiers & recherches exploratoires",
         "body": "Un portefeuille d’idées empiriques : économie du football, infrastructures et territoires, risques environnementaux, concurrence et comportement des entreprises.",
-        "category": "Recherche · données",
-        "tags": [],
-        "link_label": "",
-        "link_url": ""
+        "category": "Recherche · données"
       }
     ]
   },
@@ -224,7 +186,6 @@
         "status": "À enrichir",
         "title": "Introduction à l’économie",
         "body": "Concepts fondamentaux, raisonnements économiques, exercices et applications.",
-        "file": "",
         "tags": [
           "Cours",
           "Exercices"
@@ -236,7 +197,6 @@
         "status": "À enrichir",
         "title": "Microéconomie & stratégie",
         "body": "Cournot, Bertrand, monopole, discrimination par les prix et théorie des jeux.",
-        "file": "",
         "tags": [
           "Microéconomie",
           "Organisation industrielle"
@@ -248,7 +208,6 @@
         "status": "À enrichir",
         "title": "Macroéconomie ouverte",
         "body": "Balance des paiements, taux de change, mobilité des capitaux et politiques macroéconomiques.",
-        "file": "",
         "tags": [
           "Macroéconomie",
           "Économie internationale"
@@ -260,7 +219,6 @@
         "status": "À enrichir",
         "title": "Méthodes quantitatives",
         "body": "Fiches pratiques d’économétrie, exemples sous R et outils empiriques appliqués.",
-        "file": "",
         "tags": [
           "Économétrie",
           "R"
